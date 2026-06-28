@@ -1,0 +1,198 @@
+{
+    "model_results": [
+        {
+            "Type": "Individual",
+            "Model": "Logistic Regression",
+            "Accuracy": 0.9893617021276596,
+            "Precision": 0.9797872340425531,
+            "Recall": 0.9893617021276596,
+            "Weighted_F1": 0.9843225083986562,
+            "ROC_AUC": NaN,
+            "Training_Time": 0.04234623908996582,
+            "Prediction_Time": 0.0030226707458496094,
+            "Reason": "Excellent separation between classes. Very fast training. Works best when class boundaries are approximately linear."
+        },
+        {
+            "Type": "Individual",
+            "Model": "Decision Tree",
+            "Accuracy": 0.9893617021276596,
+            "Precision": 0.9797872340425531,
+            "Recall": 0.9893617021276596,
+            "Weighted_F1": 0.9843225083986562,
+            "ROC_AUC": NaN,
+            "Training_Time": 0.020419597625732422,
+            "Prediction_Time": 0.00440669059753418,
+            "Reason": "Excellent separation between classes. Very fast training. Captured non-linear decision boundaries."
+        },
+        {
+            "Type": "Individual",
+            "Model": "Random Forest",
+            "Accuracy": 0.9893617021276596,
+            "Precision": 0.9797872340425531,
+            "Recall": 0.9893617021276596,
+            "Weighted_F1": 0.9843225083986562,
+            "ROC_AUC": NaN,
+            "Training_Time": 1.202338457107544,
+            "Prediction_Time": 0.0933837890625,
+            "Reason": "Excellent separation between classes. Training required more computation. Ensemble of multiple trees reduced overfitting."
+        },
+        {
+            "Type": "Individual",
+            "Model": "XGBoost",
+            "Accuracy": 0.9893617021276596,
+            "Precision": 0.9797872340425531,
+            "Recall": 0.9893617021276596,
+            "Weighted_F1": 0.9843225083986562,
+            "ROC_AUC": NaN,
+            "Training_Time": 2.138075828552246,
+            "Prediction_Time": 0.04288887977600098,
+            "Reason": "Excellent separation between classes. Training required more computation."
+        },
+        {
+            "Type": "Individual",
+            "Model": "Gradient Boosting",
+            "Accuracy": 0.9893617021276596,
+            "Precision": 0.9797872340425531,
+            "Recall": 0.9893617021276596,
+            "Weighted_F1": 0.9843225083986562,
+            "ROC_AUC": NaN,
+            "Training_Time": 2.4899580478668213,
+            "Prediction_Time": 0.011281251907348633,
+            "Reason": "Excellent separation between classes. Training required more computation."
+        },
+        {
+            "Type": "Individual",
+            "Model": "HistGradientBoosting",
+            "Accuracy": 0.9893617021276596,
+            "Precision": 0.9797872340425531,
+            "Recall": 0.9893617021276596,
+            "Weighted_F1": 0.9843225083986562,
+            "ROC_AUC": NaN,
+            "Training_Time": 1.36263108253479,
+            "Prediction_Time": 0.023951292037963867,
+            "Reason": "Excellent separation between classes. Training required more computation."
+        },
+        {
+            "Type": "Individual",
+            "Model": "Extra Trees",
+            "Accuracy": 0.9893617021276596,
+            "Precision": 0.9797872340425531,
+            "Recall": 0.9893617021276596,
+            "Weighted_F1": 0.9843225083986562,
+            "ROC_AUC": NaN,
+            "Training_Time": 0.547415018081665,
+            "Prediction_Time": 0.05997061729431152,
+            "Reason": "Excellent separation between classes. Very fast training."
+        },
+        {
+            "Type": "Individual",
+            "Model": "Support Vector Machine",
+            "Accuracy": 0.9893617021276596,
+            "Precision": 0.9797872340425531,
+            "Recall": 0.9893617021276596,
+            "Weighted_F1": 0.9843225083986562,
+            "ROC_AUC": NaN,
+            "Training_Time": 0.13436198234558105,
+            "Prediction_Time": 0.012050867080688477,
+            "Reason": "Excellent separation between classes. Very fast training."
+        },
+        {
+            "Type": "Individual",
+            "Model": "Hard Voting",
+            "Accuracy": 0.9893617021276596,
+            "Precision": 0.9797872340425531,
+            "Recall": 0.9893617021276596,
+            "Weighted_F1": 0.9843225083986562,
+            "ROC_AUC": NaN,
+            "Training_Time": 7.497963190078735,
+            "Prediction_Time": 0.08727216720581055,
+            "Reason": "Excellent separation between classes. Training required more computation."
+        },
+        {
+            "Type": "Individual",
+            "Model": "Soft Voting",
+            "Accuracy": 0.9893617021276596,
+            "Precision": 0.9797872340425531,
+            "Recall": 0.9893617021276596,
+            "Weighted_F1": 0.9843225083986562,
+            "ROC_AUC": NaN,
+            "Training_Time": 2.792659044265747,
+            "Prediction_Time": 0.19408202171325684,
+            "Reason": "Excellent separation between classes. Training required more computation."
+        },
+        {
+            "Type": "Individual",
+            "Model": "Bagging",
+            "Accuracy": 0.9893617021276596,
+            "Precision": 0.9797872340425531,
+            "Recall": 0.9893617021276596,
+            "Weighted_F1": 0.9843225083986562,
+            "ROC_AUC": NaN,
+            "Training_Time": 1.4345204830169678,
+            "Prediction_Time": 0.22340011596679688,
+            "Reason": "Excellent separation between classes. Training required more computation."
+        },
+        {
+            "Type": "Individual",
+            "Model": "Stacking",
+            "Accuracy": 0.9893617021276596,
+            "Precision": 0.9797872340425531,
+            "Recall": 0.9893617021276596,
+            "Weighted_F1": 0.9843225083986562,
+            "ROC_AUC": NaN,
+            "Training_Time": 15.707876443862915,
+            "Prediction_Time": 0.06272006034851074,
+            "Reason": "Excellent separation between classes. Training required more computation."
+        },
+        {
+            "Type": "Individual",
+            "Model": "AdaBoost",
+            "Accuracy": 0.9787234042553191,
+            "Precision": 0.9797872340425531,
+            "Recall": 0.9787234042553191,
+            "Weighted_F1": 0.9782434810430332,
+            "ROC_AUC": NaN,
+            "Training_Time": 0.9009757041931152,
+            "Prediction_Time": 0.08152461051940918,
+            "Reason": "Excellent separation between classes. Very fast training."
+        }
+    ],
+    "ensemble_combinations": {
+        "Hard Voting": {
+            "Combination": [
+                "Logistic Regression",
+                "Decision Tree",
+                "Random Forest"
+            ]
+        },
+        "Soft Voting": {
+            "Combination": [
+                "Logistic Regression",
+                "Decision Tree",
+                "Random Forest"
+            ]
+        },
+        "Bagging": {
+            "Combination": [
+                "Decision Tree (base learner repeated 200 times)"
+            ]
+        },
+        "AdaBoost": {
+            "Combination": [
+                "Weak Decision Tree (depth=2) boosted 200 times"
+            ]
+        },
+        "Stacking": {
+            "Combination": [
+                "Random Forest",
+                "Extra Trees",
+                "Gradient Boosting",
+                "Meta Model: Logistic Regression"
+            ]
+        }
+    },
+    "best_model": "Logistic Regression",
+    "best_ensemble": "Hard Voting",
+    "final_winner": "Hard Voting",
+    "winner_type": "Ensemble Model"
+}

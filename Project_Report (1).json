@@ -1,0 +1,173 @@
+{
+    "summary": {
+        "Project Name": "Generic AutoML Pipeline",
+        "Problem Type": "Classification",
+        "Target Column": "label",
+        "Rows": 200000,
+        "Columns": 60,
+        "Features Used": 57,
+        "Models Trained": 17,
+        "Best Model": "Decision Tree",
+        "Accuracy": 1.0,
+        "Precision": 1.0,
+        "Recall": 1.0,
+        "Weighted F1": 1.0,
+        "Training Time": 1.3317,
+        "Prediction Time": 0.042
+    },
+    "all_models": [
+        {
+            "Model": "Decision Tree",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "Training_Time": 1.3316593170166016,
+            "Prediction_Time": 0.041973114013671875
+        },
+        {
+            "Model": "Soft Voting",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "Training_Time": 156.34352326393127,
+            "Prediction_Time": 0.38926100730895996
+        },
+        {
+            "Model": "Random Forest",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "Training_Time": 60.38482332229614,
+            "Prediction_Time": 0.3365490436553955
+        },
+        {
+            "Model": "Gradient Boosting",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "Training_Time": 106.84374499320984,
+            "Prediction_Time": 0.16566848754882812
+        },
+        {
+            "Model": "Hist Gradient Boosting",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "Training_Time": 6.185169458389282,
+            "Prediction_Time": 0.3254268169403076
+        },
+        {
+            "Model": "Hard Voting",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "Training_Time": 162.02064538002014,
+            "Prediction_Time": 0.8835563659667969
+        },
+        {
+            "Model": "Extra Trees",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "Training_Time": 29.536779165267944,
+            "Prediction_Time": 0.5299429893493652
+        },
+        {
+            "Model": "Soft Voting",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "Training_Time": 153.44231462478638,
+            "Prediction_Time": 0.39862775802612305
+        },
+        {
+            "Model": "Bagging",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "Training_Time": 69.73405456542969,
+            "Prediction_Time": 1.7576966285705566
+        },
+        {
+            "Model": "AdaBoost",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "Training_Time": 0.6651947498321533,
+            "Prediction_Time": 0.023235321044921875
+        },
+        {
+            "Model": "AdaBoost",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "Training_Time": 0.897737979888916,
+            "Prediction_Time": 0.02971935272216797
+        },
+        {
+            "Model": "Stacking",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "Training_Time": 694.8196790218353,
+            "Prediction_Time": 0.4677567481994629
+        },
+        {
+            "Model": "Hard Voting",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "Training_Time": 153.8820731639862,
+            "Prediction_Time": 0.566537618637085
+        },
+        {
+            "Model": "Stacking",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "Training_Time": 699.3075077533722,
+            "Prediction_Time": 0.4659137725830078
+        },
+        {
+            "Model": "Bagging",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "Training_Time": 68.38347625732422,
+            "Prediction_Time": 1.577507495880127
+        },
+        {
+            "Model": "Logistic Regression",
+            "Accuracy": 0.972175,
+            "Precision": 0.9451242306250001,
+            "Recall": 0.972175,
+            "Weighted_F1": 0.9584587885202885,
+            "Training_Time": 2.112170457839966,
+            "Prediction_Time": 0.07401084899902344
+        },
+        {
+            "Model": "Support Vector Machine",
+            "Accuracy": 0.972175,
+            "Precision": 0.9451242306250001,
+            "Recall": 0.972175,
+            "Weighted_F1": 0.9584587885202885,
+            "Training_Time": 1148.801477432251,
+            "Prediction_Time": 40.41712045669556
+        }
+    ]
+}

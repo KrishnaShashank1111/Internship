@@ -1,0 +1,186 @@
+{
+    "model_results": [
+        {
+            "Type": "Individual",
+            "Model": "Logistic Regression",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "ROC_AUC": 1.0,
+            "Training_Time": 0.05714845657348633,
+            "Prediction_Time": 0.008404731750488281,
+            "Reason": "Excellent separation between classes. Very fast training. Works best when class boundaries are approximately linear."
+        },
+        {
+            "Type": "Individual",
+            "Model": "Decision Tree",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "ROC_AUC": 1.0,
+            "Training_Time": 0.021959304809570312,
+            "Prediction_Time": 0.0077435970306396484,
+            "Reason": "Excellent separation between classes. Very fast training. Captured non-linear decision boundaries."
+        },
+        {
+            "Type": "Individual",
+            "Model": "Random Forest",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "ROC_AUC": 1.0,
+            "Training_Time": 1.1812236309051514,
+            "Prediction_Time": 0.09169125556945801,
+            "Reason": "Excellent separation between classes. Training required more computation. Ensemble of multiple trees reduced overfitting."
+        },
+        {
+            "Type": "Individual",
+            "Model": "Gradient Boosting",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "ROC_AUC": 1.0,
+            "Training_Time": 2.619656801223755,
+            "Prediction_Time": 0.02295660972595215,
+            "Reason": "Excellent separation between classes. Training required more computation."
+        },
+        {
+            "Type": "Individual",
+            "Model": "HistGradientBoosting",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "ROC_AUC": 1.0,
+            "Training_Time": 3.963984489440918,
+            "Prediction_Time": 0.032700300216674805,
+            "Reason": "Excellent separation between classes. Training required more computation."
+        },
+        {
+            "Type": "Individual",
+            "Model": "Extra Trees",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "ROC_AUC": 0.9999999999999999,
+            "Training_Time": 2.641451358795166,
+            "Prediction_Time": 0.21787762641906738,
+            "Reason": "Excellent separation between classes. Training required more computation."
+        },
+        {
+            "Type": "Individual",
+            "Model": "Support Vector Machine",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "ROC_AUC": 1.0,
+            "Training_Time": 3.481844425201416,
+            "Prediction_Time": 0.1301403045654297,
+            "Reason": "Excellent separation between classes. Training required more computation."
+        },
+        {
+            "Type": "Individual",
+            "Model": "Hard Voting",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "ROC_AUC": NaN,
+            "Training_Time": 9.701637268066406,
+            "Prediction_Time": 0.15215539932250977,
+            "Reason": "Excellent separation between classes. Training required more computation."
+        },
+        {
+            "Type": "Individual",
+            "Model": "Soft Voting",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "ROC_AUC": 1.0,
+            "Training_Time": 4.387967348098755,
+            "Prediction_Time": 0.19625496864318848,
+            "Reason": "Excellent separation between classes. Training required more computation."
+        },
+        {
+            "Type": "Individual",
+            "Model": "Bagging",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "ROC_AUC": 1.0,
+            "Training_Time": 4.064147710800171,
+            "Prediction_Time": 0.4359140396118164,
+            "Reason": "Excellent separation between classes. Training required more computation."
+        },
+        {
+            "Type": "Individual",
+            "Model": "AdaBoost",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "ROC_AUC": 1.0,
+            "Training_Time": 0.0584111213684082,
+            "Prediction_Time": 0.0237429141998291,
+            "Reason": "Excellent separation between classes. Very fast training."
+        },
+        {
+            "Type": "Individual",
+            "Model": "Stacking",
+            "Accuracy": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "Weighted_F1": 1.0,
+            "ROC_AUC": 1.0,
+            "Training_Time": 20.79615044593811,
+            "Prediction_Time": 0.20942330360412598,
+            "Reason": "Excellent separation between classes. Training required more computation."
+        }
+    ],
+    "ensemble_combinations": {
+        "Hard Voting": {
+            "Combination": [
+                "Logistic Regression",
+                "Decision Tree",
+                "Random Forest"
+            ]
+        },
+        "Soft Voting": {
+            "Combination": [
+                "Logistic Regression",
+                "Decision Tree",
+                "Random Forest"
+            ]
+        },
+        "Bagging": {
+            "Combination": [
+                "Decision Tree (base learner repeated 200 times)"
+            ]
+        },
+        "AdaBoost": {
+            "Combination": [
+                "Weak Decision Tree (depth=2) boosted 200 times"
+            ]
+        },
+        "Stacking": {
+            "Combination": [
+                "Random Forest",
+                "Extra Trees",
+                "Gradient Boosting",
+                "Meta Model: Logistic Regression"
+            ]
+        }
+    },
+    "best_model": "Logistic Regression",
+    "best_ensemble": "Hard Voting",
+    "final_winner": "Hard Voting",
+    "winner_type": "Ensemble Model"
+}
